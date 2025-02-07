@@ -12,6 +12,10 @@ export function HeroSection() {
       </h1>
       <div className="text-4xl md:text-4xl lg:text-6xl font-semibold max-w-7xl mx-auto text-center mt-5">
         <FlipWords words={words} /> <br />
+        <div className="flex flex-col gap-1">
+          <div className="mt-10 lg:text-2xl md:text-xl text-lg mx-auto font-normal text-neutral-600 dark:text-neutral-400">Code is cheap; architecture is everything.</div>
+          <div className="lg:text-2xl md:text-xl text-lg mx-auto font-normal text-neutral-600 dark:text-neutral-400"> I design systems that don&apos;t just work—they dominate.</div>
+        </div>
       </div>
     </div>
     {/* <div className="h-[40rem] flex justify-center items-center px-4">
